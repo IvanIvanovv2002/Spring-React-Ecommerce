@@ -1,16 +1,74 @@
-# React + Vite
+# 🛒 E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack e-commerce web application built with **React** and **Spring Boot**, featuring secure authentication, product management, online payments, and an admin dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+### Frontend
+- **React**
+- **Redux** (state management)
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **HTML5 & CSS3**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
+- **Java**
+- **Spring Boot**
+- **Spring Security (JWT Authentication)**
+- **PostgreSQL**
+- **Docker** (deployment)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+### User Features
+- 🔍 **Product Search & Filtering**
+- 🛒 **Shopping Cart**
+  - Add / remove products
+  - Persist cart state
+- 💳 **Secure Payments**
+  - Stripe integration
+- 📦 **Checkout Page**
+  - Review products before payment
+- 👤 **User Authentication**
+  - Register & Login
+  - JWT-based authorization
+- 📄 **Order History**
+  - Orders saved in database
+  - Payment status tracking
+
+### Admin Features
+- 🛠 **Admin Dashboard**
+  - Manage products (CRUD)
+  - View and manage orders
+  - Manage users
+- 📊 **Order & Payment Overview**
+
+---
+
+## 🔐 Security
+- JWT token-based authentication
+- Role-based access (USER / ADMIN)
+- Secure API endpoints
+- Encrypted passwords
+
+---
+
+## 🗄️ Database
+- **PostgreSQL**
+- Tables for:
+  - Users
+  - Products
+  - Orders
+  - Payments
+  - Cart Items
+
+---
+
+## 🐳 Docker Deployment
+- Dockerized backend
+- PostgreSQL container
+- Easy local and production deployment
